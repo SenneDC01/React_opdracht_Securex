@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import FormField from "./FormField"; // Adjust the import path as necessary
+import FormField from "./FormField";
 
 describe("FormField Component", () => {
   it("renders the input with the correct placeholder", () => {

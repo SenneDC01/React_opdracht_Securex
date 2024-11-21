@@ -28,7 +28,7 @@ describe("AssetList Component", () => {
 
   it("displays correct asset details", () => {
     render(<AssetList assets={assetsWithHistory} title="Test Assets" />);
-    // Use startDate and endDate from the combined data
+
     const firstAsset = screen.getByText(
       "Apple - MacBook Pro - Start Date: 2023-01-15 - End Date: 2025-01-15",
     );
